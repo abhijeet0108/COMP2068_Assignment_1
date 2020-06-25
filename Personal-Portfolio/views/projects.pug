@@ -1,0 +1,34 @@
+//-
+ File Name: projects.pug
+ Author's name:  Abhijeet Rana
+ Website name: Personal Portfolio
+ File description: This file contains the info of all the big programming and website projects made by the author.
+//
+include layout.pug
+doctype html
+html
+  head
+    title #{title}
+    <!-- adding css file -->
+    link(rel="stylesheet" type="text/css" href="/stylesheets/main.css") 
+  <body> <br>
+      <h2 class="text-center"><u>My Projects.</u></h2><br><br><br><br><br>
+      <!--section start for projects details -->
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="text-center mb-50">
+                  <h3><u>Online Gaming Problem Solutions(OGPS)</U></h3><br><br>
+                  <p style="margin-bottom: 20px ; font-size:22px">OGPS was a PHP project which I created and developed in my second semester. It was a very challenging project for me.</p>
+              </div>
+          </div>
+          <!--column 2 -->
+          <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="text-center mb-50">
+                  <h3><u>Cars Management System(CSM)</u></h3><br><br>
+                      <p style="font-size:22px">CSM was ASP.NET project. It was very interesting project I ever made. It was based on the whole concept of Models-Views-Controllers(MVC).</p>
+              </div>
+          </div>  
+        </div>  
+  </body>
+  <div style="margin-top:185px"></div>
+    include partials/footer.pug

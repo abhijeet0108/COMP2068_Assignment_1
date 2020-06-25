@@ -1,0 +1,31 @@
+//-
+ File Name: aboutme.pug
+ Author's name:  Abhijeet Rana
+ Website name: Personal Portfolio
+ File description: This file consists all the information about the author such as who he is and what he is currently doing in his field and all that other info. .
+//
+<!-- including layout.pug file by using include command -->
+include layout.pug  
+doctype html
+html
+  head
+    title #{title} 
+    link(rel="stylesheet" type="text/css" href="/stylesheets/main.css") 
+  <body><br>
+  <div class="pb-top">
+      <div class="container">
+          <div class="row justify-content-between align-items-center">
+              <!-- starting of about me section-->
+              <div class="caption">
+                  <h2>Hello!!! My name is Abhijeet Rana.</h2> 
+                      <p class="pb-30">I am currently enrolling in Computer Programming course as an international student in Georgian College. Originally, I am from India.</p>
+                  <h5>Goal</h5>
+                      <p>I want to become a brilliant web developer as I have a great experience and curiosity about learning in this field.</p>
+              </div>
+          </div>
+      </div>
+  </div>
+  </body>
+  <!--style tag used for getting necessary margin before footer -->
+  <div style="margin-top:450px"></div>
+   include partials/footer.pug 

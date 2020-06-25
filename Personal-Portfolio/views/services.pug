@@ -1,0 +1,41 @@
+//-
+ File Name: services.pug
+ Author's name:  Abhijeet Rana
+ Website name: Personal Portfolio
+ File description: In this file, all the programming skills and languages of the author are mention in which he is more comfortable and expert.
+//
+<!--include command used for layout.pug file -->
+include layout.pug
+doctype html
+html
+  head
+    <h2 class="text-center"><u>Services</u></h2><br><br>
+    title #{title}
+    link(rel="stylesheet" type="text/css" href="/stylesheets/main.css") 
+  body
+      <div class="row">
+      <!-- column 1 -->
+          <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="text-center mb-50">
+                  <h3><U>HTML and CSS</u></h3><br>
+                      <p style="font-size:22px">HTML and CSS are the languages in which I feel like a pro coder because these two languages are like the backbone of web development. So, I have a pretty knowledge regarding these two programming languages. </p>
+              </div>
+          </div>
+          <!-- column 2 -->
+          <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="text-center mb-50">
+                  <h3><u>Java</u></h3><br>
+                      <p style="font-size:22px">Java is very popular and important programming language. I have a learning experience of Advance Java Programming. Hence, I have good understanding regarding this language too. </p>
+              </div>
+          </div>
+          <!-- column 3 -->
+          <div class="col-lg-4 col-md-6 col-sm-6">
+              <div class="text-center mb-50">
+                  <h3><u>PHP</u></h3><br>
+                      <p style="font-size:22px">PHP stands for Hypertext Preprocessor. I studied this language also and have a pretty good mastery of this language.</p>
+              </div>
+          </div>
+      </div>
+  <div style="margin-top:270px"></div>
+  <!--including footer pug file -->
+   include partials/footer.pug
